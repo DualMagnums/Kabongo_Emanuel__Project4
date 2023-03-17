@@ -1,0 +1,149 @@
+@media screen and (min-width: 320px) { 
+	
+body {
+	min-width: 0;
+}
+
+
+
+
+#header {
+	padding: 50px 0;
+	position: relative;
+	width: 100%;
+}
+
+#header a.logo {
+	margin-bottom: 20px;
+	transition: 0.5s ease;
+}
+
+#header a.logo:hover {
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+#header ul {
+	display: flex;
+	padding-top: 15px;
+	position: relative;
+}
+
+#header ul li a {
+	background: rgba(165, 165, 165, 0.187);
+	color: rgb(0, 0, 0);
+	font-family: 'Arial Black', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	height: 49px;
+	line-height: 49px;
+	padding: 15px 15px 12px 15px;
+	transition: 0.5s ease;
+}
+#header ul li.selected a {
+	background: #151515;
+	color: #ffffff;
+}
+
+#header ul li a:hover {
+	background: #696969f8;
+	color: #e3e3e3;
+}
+
+#body {
+	width: 100%;
+}
+#body h1 {
+	display: block;
+	font-size: 20px;
+	margin: 0 auto;
+	width: 90%;
+}
+#body h1 span {
+	display: block;
+	margin-top: 0px;
+	padding: 3%;
+	width: 94%;
+}
+#body > div {
+	padding: 0 5%;
+	width: 90%;
+}
+#body > div img {
+	margin: 24px 0 30px;
+	width: 98%
+}
+
+#body #featured {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#body #featured img {
+	min-width: 960px;
+}
+#body #featured div {
+	left: 0;
+	margin: 0;
+	padding: 50px 2%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 96%;
+}
+
+#body #featured div span {
+	display: block;
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 10px;
+}
+#body #featured div a {
+	font-size: 14px;
+	margin: 5px 0 0;
+	padding: 10px;
+}
+#body > ul {
+	overflow: visible;
+	padding: 0 5%;
+	width: 80%;
+}
+
+#body > ul li {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+#body > ul li a img {
+	width: 98%;
+}
+#body > ul li a span {
+	padding: 15px 0;
+}
+
+#body form {
+	width: 100%;
+}
+#body form input, #body form textarea {
+	margin: 0 0 20px;
+	padding: 10px;
+	width: 84%;
+}
+#body form #send {
+	padding: 10px;
+}
+#footer {
+	padding: 10px 0 25px;
+}
+#footer div {
+	overflow: visible;
+	width: 100%;
+}
+#footer div p {
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+
+}
